@@ -282,7 +282,7 @@ async def help(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton("🔥 ᴏᴡɴᴇʀ", url="https://t.me/DATTEBAYO56"), 
-            InlineKeyboardButton("👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/urr_sanjiii")
+            InlineKeyboardButton("👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Peldiya")
         ]
     ]
     if SUPPORT_GROUP:
@@ -303,5 +303,5 @@ async def help(client: Client, message: Message):
             message_effect_id = 5046509860389126442 #🎉
         )
     except Exception as e:
-        return await message.reply(f"<b><i>! ᴇʀʀᴏʀ, ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @urr_sanjiii</i></b>\n<blockquote expandable><b>ʀᴇᴀsᴏɴ:</b> {e}</blockquote>")
+        return await message.reply(f"<b><i>! ᴇʀʀᴏʀ, ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @PelDiya</i></b>\n<blockquote expandable><b>ʀᴇᴀsᴏɴ:</b> {e}</blockquote>")
    
